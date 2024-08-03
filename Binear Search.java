@@ -6,7 +6,7 @@ class Solution {
         
         while(left<=right){
             
-            int mid=(left+right)/2;
+            int mid=(left+right)/2;// important
             
             if(arr[mid]==k){
                 return mid;
