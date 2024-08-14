@@ -1,7 +1,7 @@
 
     class Solution {
     public boolean isPossible(int k, int[] arr1, int[] arr2) {
-        // Your code goes here.
+       
         int[] arr=new int[arr2.length];
         Arrays.sort(arr1);
         Arrays.sort(arr2);
